@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My size</string>
+    <string name="buttonparam">Размер одежды по параметрам</string>
+    <string name="buttonphoto">Размер одежды по фотографии</string>
+    <string name="buttoncolor">Подобрать цвета</string>
+    <string name="buttonhistory">История размеров</string>
+    <string name="hintphoto">Введите свой рост</string>
+    <string name="hintchest">Введите обхват груди</string>
+    <string name="hintwaist">Введите обхват талии</string>
+    <string name="hinthips">Введите обхват бедер</string>
+    <string name="ButtonResult">Получить размер одежды</string>
+    <string name="Res">Ваш размер одежды</string>
+    <string name="tv1_1">Дуальное сочетание</string>
+    <string name="tv1_2">"      Дуальное сочетание предполагает использование дополнительных или комплиментарных цветов, которые взаимно усиливают цветопередачу и воспринимаются как наиболее контрастные."</string>
+    <string name="tv2_1">Классическая триада</string>
+    <string name="tv2_2">"      Это понятие расширяет возможности дуального сочетания, поскольку предполагает наличие трех цветов, равномерно расположенных в цветовом круге. Триадная схема обладает высоким контрастным воздействием, поэтому требует особого внимания к основному цвету и дополнительным деталям."</string>
+    <string name="tv3_1">Аналоговые цвета</string>
+    <string name="tv3_2">"      Аналоговые – это родственные цвета, которые располагаются в соседних секторах цветового круга. Сложное сочетание, которое необходимо сбалансировать по оттенку, теплоте и насыщенности, чтобы оно не оказалось набором случайных вещей похожего цвета."</string>
+    <string name="b_del">Очистить историю</string>
+    <string name="t_paramMain">Введите ваши параметры</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="color_pick">Выберите цвет</string>
+    <string name="ru">RU</string>
+    <string name="int1">Int</string>
+    <string name="eu">EU</string>
+    <string name="us">US</string>
+    <string name="sex_show">Пол:</string>
+    <string name="heigh">Рост:</string>
+    <string name="buttonMerki">Как снимать мерки?</string>
+    <string-array name="sex">
+        <item>Выберите ваш пол</item>
+        <item>Мужской</item>
+        <item>Женский</item>
+    </string-array>
+</resources>

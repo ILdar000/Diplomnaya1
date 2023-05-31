@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color1">#ffecda</color>
+    <color name="color2">#ffd9b5</color>
+    <color name="color3">#ea9a62</color>
+    <color name="color4">#a47345</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundBlack">#10000000</color>
+    <color name="black">#000000</color>
+    <color name="gray">#202020</color>
+
+
+</resources>

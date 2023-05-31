@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    android:background="@color/color2">
+
+
+    <TextView
+        android:id="@+id/textViewRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/Res"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/color2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewRes">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:text="" />
+
+            <ImageView
+                android:id="@+id/imageViewShirt"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/shirt" />
+
+            <ImageView
+                android:id="@+id/imageViewJeans"
+                android:layout_width="48dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/jeans" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewRu"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/ic_ru" />
+
+            <TextView
+                android:id="@+id/textViewRu"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:text="@string/ru" />
+
+
+            <TextView
+                android:id="@+id/textViewRuResShirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewRuResJeans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageViewInt"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/ic_int" />
+
+            <TextView
+                android:id="@+id/textViewInt"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:text="@string/int1" />
+
+            <TextView
+                android:id="@+id/textViewIntResShirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewIntResJeans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewEu"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/ic_eu" />
+
+            <TextView
+                android:id="@+id/textViewEu"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:text="@string/eu" />
+
+            <TextView
+                android:id="@+id/textViewEuResShirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewEuResJeans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewUs"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                app:srcCompat="@drawable/ic_us" />
+
+            <TextView
+                android:id="@+id/textViewUs"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:text="@string/us" />
+
+            <TextView
+                android:id="@+id/textViewUsResShirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewUsResJeans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
